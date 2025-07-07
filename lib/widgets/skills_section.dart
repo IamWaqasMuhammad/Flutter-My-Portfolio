@@ -19,6 +19,7 @@ class SkillsSection extends StatelessWidget {
       key: nav.sectionKeys['skills'],
       padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 20),
       width: double.infinity,
+
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [

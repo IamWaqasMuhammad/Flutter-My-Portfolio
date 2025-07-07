@@ -76,11 +76,13 @@ class _NavBarState extends State<NavBar> {
         /// Logo + Name
         Row(
           children: [
-            Image.asset('assets/images/profile.png', height: 32),
+            CircleAvatar(
+              backgroundImage:  AssetImage('assets/images/profile.png'),
+            ),
             const SizedBox(width: 8),
             const Text(
               "Waqas",
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 24, fontFamily: 'Poppins', fontWeight: FontWeight.bold),
             ),
           ],
         ),

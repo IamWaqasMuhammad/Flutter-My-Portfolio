@@ -18,15 +18,15 @@ class SocialRow extends StatelessWidget {
         IconButton(
             icon: const Icon(Icons.code),
             tooltip: "GitHub",
-            onPressed: () => _launch("https://github.com/yourusername")),
+            onPressed: () => _launch("https://github.com/IamWaqasMuhammad")),
         IconButton(
             icon: const Icon(Icons.business),
             tooltip: "LinkedIn",
-            onPressed: () => _launch("https://linkedin.com/in/yourprofile")),
+            onPressed: () => _launch("https://www.linkedin.com/in/waqas-muhammad-0ba609290/")),
         IconButton(
             icon: const Icon(Icons.email),
             tooltip: "Email",
-            onPressed: () => _launch("mailto:your@email.com")),
+            onPressed: () => _launch("mailto:waqasmuhammad5254@email.com")),
       ],
     );
   }

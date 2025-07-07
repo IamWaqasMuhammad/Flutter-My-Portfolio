@@ -14,15 +14,33 @@ class ProjectsSection extends StatelessWidget {
 
     final projects = [
       {
-        'title': 'E-commerce App',
-        'description': 'A complete Flutter e-commerce app using GetX.',
-        'image': 'assets/images/food hub.jpeg',
+        'title': 'Flutter Portfolio Website',
+        'description': 'My own portfolio built with Flutter and GetX.',
+        'image': 'assets/images/portfolio.png',
         'url': 'https://github.com/yourusername/ecommerce-app'
       },
       {
-        'title': 'Portfolio Website',
-        'description': 'My own portfolio built with Flutter and GetX.',
+        'title': 'Food Hub App UI',
+        'description': 'Food Hub App UI with few screens',
+        'image': 'assets/images/food hub.jpeg',
+        'url': 'https://github.com/yourusername/portfolio-app'
+      },
+      {
+        'title': 'Coffee Shop App UI',
+        'description': 'Coffee shop App UI with few screens',
         'image': 'assets/images/coffee shop.jpeg',
+        'url': 'https://github.com/yourusername/portfolio-app'
+      },
+      {
+        'title': 'WhatsApp App UI',
+        'description': 'Complete WhatsApp UI Clone',
+        'image': 'assets/images/food hub.jpeg',
+        'url': 'https://github.com/yourusername/portfolio-app'
+      },
+      {
+        'title': 'Calculator App UI',
+        'description': 'Calculator for Arithmetic Operation',
+        'image': 'assets/images/calculator.jpeg',
         'url': 'https://github.com/yourusername/portfolio-app'
       },
     ];
