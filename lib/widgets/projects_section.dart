@@ -14,12 +14,6 @@ class ProjectsSection extends StatelessWidget {
 
     final projects = [
       {
-        'title': 'Flutter Portfolio Website',
-        'description': 'My own portfolio built with Flutter and GetX.',
-        'image': 'assets/images/portfolio.png',
-        'url': 'https://github.com/yourusername/ecommerce-app'
-      },
-      {
         'title': 'Food Hub App UI',
         'description': 'Food Hub App UI with few screens',
         'image': 'assets/images/food hub.jpeg',
