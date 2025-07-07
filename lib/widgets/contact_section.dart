@@ -45,18 +45,18 @@ class ContactSection extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                   Obx(() => ElevatedButton(
-                    onPressed: (){
-                      try{
-                        if(contact.formKey.currentState!.validate()){
-                          contact.sendEmail();
-                          contact.isLoading.value=false;
-                        }
-                      } catch(e){
-                        Get.showSnackbar(GetSnackBar(
-                          title: 'Failed to Send Email $e',
-                        ));
+                    onPressed: contact.isLoading.value
+                        ? null
+                        : () {
+                      if (contact.formKey.currentState!
+                          .validate()) {
+                        contact.sendEmail();
                       }
                     },
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 32, vertical: 16),
+                    ),
                     child: contact.isLoading.value
                         ? const SizedBox(
                       height: 20,
@@ -67,7 +67,6 @@ class ContactSection extends StatelessWidget {
                       ),
                     )
                         : const Text("Send"),
-
                   )),
                 ],
               ),
