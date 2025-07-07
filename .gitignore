@@ -5,7 +5,6 @@
 *.swp
 .DS_Store
 .atom/
-.buildlog/
 .history
 .svn/
 .swiftpm/
